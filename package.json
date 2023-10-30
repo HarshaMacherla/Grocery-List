@@ -1,7 +1,7 @@
 {
   "name": "grocery-list",
   "version": "0.1.0",
-  "homepage": "https://HarshaMacherla.github.io/react_deploy_gh",
+  "homepage": "https://HarshaMacherla.github.io/Grocery-List",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
