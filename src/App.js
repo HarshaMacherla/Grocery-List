@@ -5,7 +5,7 @@ import Content from "./components/Content";
 import Footer from "./components/Footer";
 import { useState } from "react";
 
-const App = () => {
+function App() {
   const [items, setItems] = useState(
     JSON.parse(localStorage.getItem("groceries")) || []
   );
@@ -66,6 +66,6 @@ const App = () => {
       <Footer length={items ? items.length : 0} />
     </div>
   );
-};
+}
 
 export default App;
